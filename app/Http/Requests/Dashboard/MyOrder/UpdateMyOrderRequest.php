@@ -37,7 +37,7 @@ class UpdateMyOrderRequest extends FormRequest
                 'nullbale', 'integer',
             ],
             'file' => [
-                'nullable', 'mimes:zip', 'max:1024',
+                'nullable', 'mimes:zip,rar,pdf', 'max:10240',
             ],
             'note' => [
                 'required', 'string', 'max:10000',

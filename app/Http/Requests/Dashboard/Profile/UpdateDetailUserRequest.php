@@ -30,7 +30,7 @@ class UpdateDetailUserRequest extends FormRequest
     {
         return [
             'photo' => [
-                'nullable', 'file', 'max:1024',
+                'nullable', 'file', 'max:10240',
             ],
             'role' => [
                 'nullable', 'string', 'max:100',

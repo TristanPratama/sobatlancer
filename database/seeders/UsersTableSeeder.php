@@ -17,17 +17,17 @@ class UsersTableSeeder extends Seeder
     {
         $users = [
             [
-                'name'              => 'John Doe',
-                'email'             => 'john@mail.com',
-                'password'          => Hash::make('Admin@12345'),
+                'name'              => 'Tristan Hans Pratama',
+                'email'             => 'tristanpratama7@gmail.com',
+                'password'          => Hash::make('12345678'),
                 'remember_token'    => NULL,
                 'created_at'        => date('Y-m-d h:i:s'),
                 'updated_at'        => date('Y-m-d h:i:s'),
             ],
             [
-                'name'              => 'Jane Doe',
-                'email'             => 'jane@mail.com',
-                'password'          => Hash::make('Admin@12345'),
+                'name'              => 'Pramudya Lutfiansyah',
+                'email'             => 'pramudya1@gmail.com',
+                'password'          => Hash::make('12345678'),
                 'remember_token'    => NULL,
                 'created_at'        => date('Y-m-d h:i:s'),
                 'updated_at'        => date('Y-m-d h:i:s'),

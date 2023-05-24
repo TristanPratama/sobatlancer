@@ -1,1 +1,4 @@
-*.sqlite*
+/node_modules
+/public/storage
+/vendor
+.env
