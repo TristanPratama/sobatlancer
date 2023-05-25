@@ -117,7 +117,7 @@
                                                 Download File
                                             </a>
                                         @else
-                                            <input type="file" accept=".zip" id="choose" name="file" hidden required>
+                                            <input type="file" accept=".zip, .rar" id="choose" name="file" hidden required>
                                             <label for="choose" class="px-4 py-2 mt-2 text-left text-gray-700 rounded-xl bg-serv-hr">
                                                 Choose File
                                             </label>
