@@ -72,7 +72,7 @@
 
             <p class="leading-8 text-serv-text mb-6"> To continue payment, please contact directly <br class="lg:block hidden">our Freelancer through WhatsApp</p>
 
-            <a href="http://wa.me/628123456789" class="bg-serv-button text-white text-md font-medium py-4 w-80 my-2 rounded-2xl text-center inline-block">Continue to Chat</a>
+            <a href="{{ 'http://wa.me/62'.substr($freelancer->contact_number, 1) }}" class="bg-serv-button text-white text-md font-medium py-4 w-80 my-2 rounded-2xl text-center inline-block">Continue to Chat</a>
 
             <br>
 

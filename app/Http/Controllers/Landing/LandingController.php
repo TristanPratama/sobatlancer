@@ -13,6 +13,7 @@ use App\Models\AdvantageUser;
 use App\Models\Tagline;
 use App\Models\AdvantageService;
 use App\Models\ThumbnailService;
+use App\Models\DetailUser;
 
 class LandingController extends Controller
 {
@@ -146,8 +147,9 @@ class LandingController extends Controller
     public function detail_booking($id)
     {
         $order = Order::where('id', $id)->first();
+        $freelancer = DetailUser::where('users_id', $order->freelancer_id)->first();
 
-        return view('pages.landing.booking', compact('order'));
+        return view('pages.landing.booking', compact('order', 'freelancer'));
     }
 
 }
