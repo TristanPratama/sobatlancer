@@ -69,3 +69,7 @@ node_modules
 /public/storage
 /vendor
 .env
+.env.backup
+/storage/app
+/.idea
+/.vscode
